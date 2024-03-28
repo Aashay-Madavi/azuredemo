@@ -1,0 +1,19 @@
+# version: '3.8'
+# services:
+#   web:
+#     build: .
+#     ports:
+#       - "80:80"  # Corrected port mapping syntax
+#   api:
+#     image: node:latest
+#     ports:
+#       - "3000:3000"  # Corrected port mapping syntax
+#   db:
+#     image: mongo:latest
+#     ports:
+#       - "27017:27017"  # Corrected port mapping syntax
+#     volumes:
+#       - mydb:/data/db  # Corrected volume syntax
+
+# volumes:
+#   mydb:
